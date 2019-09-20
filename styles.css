@@ -44,9 +44,15 @@ body, html {
     width: 10px;
 }
 
+#bottomleftcolumn {
+    height: 100px;
+    width: 10px;
+}
+
 .mediumbox {
     width: 100px;
     height: 140px;
+    background-color: blue;
 }
 
 #divider2 {
@@ -58,4 +64,32 @@ body, html {
     width: 400px;
     height: 10px;
     background-color: black;
+}
+
+#bottomrightcolumn {
+    width: 10px;
+    height: 100px;
+    background-color: black;
+    float: right;
+}
+
+#smallbox {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#smallbox2 {
+    background-color: green;
+    height: 100px;
+    width: 20px;
+    float: right;
+}
+
+#middlebottombox {
+    background-color: green;
+    height: 100px;
+    width: 260px;
+
 }
