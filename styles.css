@@ -21,18 +21,27 @@ body, html {
     height: 290px;
 }
 
-.red {
-    background-color: red;   
+.maroon {
+    background-color: maroon;   
 }
 
 .blue {
-    background-color: blue; 
+    background-color: darkblue; 
 }
 .yellow {
     background-color: yellow;   
 }
 .black {
     background-color: black;   
+}
+.purple {
+    background-color: purple;   
+}
+.goldenrod {
+    background-color: goldenrod;   
+}
+.gray {
+    background-color: gray;   
 }
 
 .right {
@@ -52,7 +61,6 @@ body, html {
 .mediumbox {
     width: 100px;
     height: 140px;
-    background-color: blue;
 }
 
 #divider2 {
@@ -67,29 +75,40 @@ body, html {
 }
 
 #bottomrightcolumn {
-    width: 10px;
     height: 100px;
-    background-color: black;
-    float: right;
-}
+    width: 40px;
+  }
+  .smallbox {
+    width: 50px;
+    height: 45px;
+    
+  }
+ 
 
-#smallbox {
-    background-color: yellow;
+  #bottommiddlebox {
     height: 100px;
+    width: 240px;
+    background-color: darkslategrey;
+  }
+
+ 
+  #bottomleftbox {
     width: 100px;
-    float: left;
-}
-
-#smallbox2 {
-    background-color: green;
     height: 100px;
-    width: 20px;
-    float: right;
-}
-
-#middlebottombox {
     background-color: green;
-    height: 100px;
-    width: 260px;
+  }
 
-}
+  #divider4 {
+    height: 100px;
+    width: 10px;
+  }
+  
+  #divider5 {
+    height: 10px;
+    width: 50px;
+  }
+  
+  #divider6 {
+    height: 100px;
+    width: 10px;
+  }
